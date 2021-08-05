@@ -1,0 +1,12 @@
+chromium --disable-low-res-tiling \
+--num-raster-threads=6 \
+--profiler-timing=0 \
+--disable-composited-antialiasing \
+--test-type \
+--show-component-extension-options \
+--ignore-gpu-blacklist \
+--enable-pinch \
+--flag-switches-begin \
+--enable-gpu-rasterization \
+--enable-oop-rasterization \
+--flag-switches-end
